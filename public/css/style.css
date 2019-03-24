@@ -1,0 +1,78 @@
+
+.inline-block{
+    display: inline-block;
+    vertical-align:text-top;
+    
+}
+#inline-block-containter {
+    display: block;
+}
+
+ #inline-block-containter > div{
+    margin: auto;
+    padding:10px; 
+    margin:10px;
+  }
+
+ .glyphicon-edit:before{content:"\e065"}
+ .glyphicon-trash:before{content:"\e020"}
+ .glyphicon{
+     position:relative;
+     top:1px;
+     display:inline-block;
+     font-family:'Glyphicons Halflings';
+     font-style:normal;
+     font-weight:400;
+     line-height:1;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+}
+
+.noteIcon{
+    display: absolute;
+    float: right;
+}
+
+.todo {
+    display: inline-block;
+    background-color: #00ddff;
+    vertical-align:text-top;
+    height: 600px;
+    width: 100%;
+    padding: 5px;
+}
+
+.note {
+    display: inline-block;
+    background-color: #96ff9f;
+    vertical-align:text-top;
+    height: 600px;
+    width: 100%;
+    padding: 5px;
+}
+
+.updateNote{
+    position: relative;
+    margin-left: 15px;
+    text-align: left;
+}
+.noteRow{
+    position: relative;
+    margin-right: 10px; 
+    margin-left: 10px; 
+    border-bottom: 1px solid black;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+td{
+    width: 40%;
+    padding: 5px;
+}
+
+body{
+    font-size: 16px;
+}
